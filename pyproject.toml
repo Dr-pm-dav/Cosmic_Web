@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmicweb"
+version = "0.1.0"
+description = "Map the cosmic web and characterize void contents from sparse tracers with a 3D U-Net, using CAMELS simulation data."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = ["numpy", "scipy", "matplotlib", "h5py", "hdf5plugin", "torch"]
+
+[project.optional-dependencies]
+notebooks = ["jupyterlab", "nbformat"]
+
+[tool.setuptools]
+packages = ["cosmicweb"]

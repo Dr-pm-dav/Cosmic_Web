@@ -1,0 +1,12 @@
+# Runtime deps. PyTorch is intentionally unpinned — install the build that matches your machine:
+#   CPU:  pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   GPU:  pip install torch --index-url https://download.pytorch.org/whl/cu121   (match your CUDA)
+numpy
+scipy
+matplotlib
+h5py
+hdf5plugin
+torch
+# notebooks only:
+jupyterlab
+nbformat
