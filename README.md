@@ -35,7 +35,7 @@ docs/          supplementary references
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/Cosmic_Web.git
+git clone https://github.com/Dr-pm-dav/Cosmic_Web.git
 cd cosmic-web-mapper
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 
